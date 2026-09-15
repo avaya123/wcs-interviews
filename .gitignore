@@ -1,0 +1,38 @@
+# Dependencies (both apps)
+node_modules/
+**/node_modules/
+broken-event-rsvp/node_modules/
+working-event-rsvp/node_modules/
+
+# Build / cache
+build/
+dist/
+.cache/
+*.tsbuildinfo
+
+# CRA / tooling
+.eslintcache
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Coverage / test
+coverage/
